@@ -1723,6 +1723,10 @@ button,
     .features article .icon:before {
       font-size: 1.25rem; } }
 
+hr.solid {
+        border-top: 3px solid #bbb;
+      }
+
 /* Posts */
 .posts {
   display: -moz-flex;
@@ -1734,7 +1738,7 @@ button,
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0 0 2em -6em;
-  width: calc(100% + 6em); }
+  width: 100%; }
   .posts article {
     -moz-flex-grow: 0;
     -webkit-flex-grow: 0;
